@@ -492,3 +492,8 @@ input[type=message], select, textarea{
     font-family: monospace;
     height:200px;
 }
+
+.thank_you{
+    text-align: center;
+    padding: 7em;
+}
