@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>About</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <header>
+          <div class="header">
+            <a href="index.html" class="logo">Maimuna</a>
+            <div class="hamburger">
+                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> 
+            </div>
+                <nav>
+                    <ul id="nav_wrapper">
+                        <li class="nav_item active"><a href="about.html">About</a></li>
+                        <li class="nav_item"><a href="homeworks.html">Homeworks</a></li>
+                        <li class="nav_item"><a href="projects.html">Portfolio</a></li>
+                        <li class="nav_item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="popup" id="popup">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">&times;</div>
+                <h4>My Avatar says hi!</h4>
+            </div>
+        </div>
+        
+        <div class="mygif" onclick="togglePopup()">
+            <img id= "mygif" src="Website/images/avatar_crop2.gif"/>
+        </div>
+        <div class="wrapper">
+            <h2>Hunter '23 🎓</h2>
+            <h1>I graduated from <span class="word_mark">CUNY Hunter College</span> as a <span class="word_mark">Emerging Media major and Computer Science minor</span>. I am a <span class="word_mark">full time video editor</span> and <span class="word_mark">part time designer</span>. I have been editing videos <span class="word_mark">since high school</span>. It started as a fun hobby and slowly I became more serious about it. And my love for video editing kept growing ever since. Besides, I have also been <span class="word_mark">designing</span> small icons and logos as well as posters, business/invitation cards, banners and product labels, since high school. I started learning and practicing <span class="word_mark">user experience and interface designing</span> in my sophomore year in college. It is something I really <span class="word_mark">love and enjoy </span>to do and hope to get better at in future.</h1>
+        </div>
+        <div class="wrapper">
+            <h2>I'm from 🇧🇩</h2>
+            <h1>I was born in a beautiful country, <span class="word_mark">Bangladesh</span>. I <span class="word_mark">moved</span> to USA with my family at the <span class="word_mark">age of 12</span>. </h1>
+        </div>
+        <div class="wrapper">
+            <h2>Me 👓</h2>
+            <h1><span class="word_mark">Enjoying every moment</span> of each day is my life's motto. I aim to <span class="word_mark">appreciate the little things</span> everyday, which at the end brings me greater joy. As a result, <span class="word_mark">photography</span> is something that I hold close to my heart as it helps me capture those <span class="word_mark">beautiful moments in life</span>. Besides loving being a video editor and a designer, I also <span class="word_mark">love to paint</span> sometimes whether it is acrylic, oil, or even <span class="word_mark">digital painting</span>. </h1>
+        </div>
+        
+        <div class= "wrapper">
+            <div>
+                <h2>My favorite animal</h2>
+                <h1>I love <span class="word_mark">otter</span>! I love when they just <span class="word_mark">float around</span> in the water on their back, and cover their face with their palm to sleep. I wish I could also float around in water all day...<br> Did you know otters are from the <span class="word_mark">same family as the wolverines</span>? That's a scary relative to have for a small, cute creature.</h1>
+                <h3 class="word_mark">Click on "generate" to see the next random otter gif!</h3>
+            </div>
+            <div id="myDiv">
+                <img id="showImg" src="#"/>
+                <div class="nextBtn">
+                    <button id="nextBtn">Generate</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="backToTop">
+            <button id="backToTop" onClick="toTop()">Back to top</button>
+        </div>
+        
+        
+        <script src="sticker.js"></script>
+</body>
+</html>

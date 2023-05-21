@@ -1,0 +1,51 @@
+.contactmain{
+    margin: 0 10rem;
+    padding: 0 2.5rem;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #e16b67;
+    font-family:Gill Sans, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3b515e;
+    color: white;
+}
+
+#fname {
+    font-family: monospace;
+}
+
+#lname {
+    font-family: monospace;
+}
+
+#subject {
+    font-family: monospace;
+    height:200px;
+}
+
+.container {
+    background-color:whitesmoke;
+    font-family: Optima, sans-serif;
+    color: #464458;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+/* Webfont: Marvello-Regular */@font-face {
+    font-family: 'Marvello';
+    src: url('Marvello-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Marvello-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Marvello-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Marvello-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
