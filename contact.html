@@ -21,7 +21,7 @@
                 <nav>
               <ul id="nav_wrapper">
                 <li class="nav_item"><a href="about.html">About</a></li>
-                <li class="nav_item"><a href="homeworks.html">Homeworks</a></li>
+                <li class="nav_item"><a href="homeworks.html">Projects</a></li>
                 <li class="nav_item"><a href="projects.html">Portfolio</a></li>
                 <li class="nav_item active"><a href="contact.html">Contact</a></li>
               </ul>
@@ -33,19 +33,17 @@
             Contact
             </h2>
             <div class="form_container">
-                <form action="mailto:mbanika14@gmail.com?">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Subject.."></textarea>
+                <form class="form_container" action="https://formsubmit.co/mbanika14@gmail.com" method="POST">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Your Email" required>
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.."></textarea>
-
-                    <input type="submit" value="Submit">
+                    <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>

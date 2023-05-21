@@ -266,6 +266,9 @@ a {
 
 iframe{
     border-radius: 20px;
+    width: 25em;
+    height: 14em;
+    border: none;
     transition: transform .5s ease-in-out;
 }
 
@@ -430,7 +433,7 @@ iframe:hover {
 }
 
 .contact_div {
-    margin: 0 7rem;
+    margin: 0 20rem 5rem 20rem;
     top: 0;
 }
 
@@ -443,12 +446,12 @@ iframe:hover {
     font-family: Optima, sans-serif;
     font-weight: 600;
     color: #F3F3F2;
-    padding: 3rem;
-    border-radius: 0.5rem;
+    padding: 2rem;
+    border-radius: 3rem;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
+input, select, textarea {
+    display: flex;
     padding: 12px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
@@ -458,7 +461,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+button[type=submit] {
     background-color: #F3F3F2;
     font-family:Gill Sans, sans-serif;
     font-size: 16px;
@@ -469,23 +472,23 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
     background-color: #3C281E;
     color: white;
 }
 
-#fname {
+input[type=text], select, textarea{
+    width: 60%;
     font-family: monospace;
 }
 
-#lname {
+input[type=email], select, textarea{
+    width: 60%;
     font-family: monospace;
 }
 
-#subject {
-    font-family: monospace;
-}
-#message{
+input[type=message], select, textarea{
+    width: 100%;
     font-family: monospace;
     height:200px;
 }
